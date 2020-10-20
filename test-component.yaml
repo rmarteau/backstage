@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-backstage
+  description: Test backstage
+  tags:
+    - java
+    - springboot
+spec:
+  type: service
+  lifecycle: test
+  owner: guest
